@@ -414,7 +414,7 @@ button:not(:disabled) {
     font-size: 32px;
     cursor: pointer;
     position: relative;
-    top: 5px;
+    top: -02px;
 }
 
 .sidebar__area {
@@ -3197,7 +3197,6 @@ select {
   background-image: url(../img/pattern-10.jpg);
 }
 
-}
 
 /*** 
 
