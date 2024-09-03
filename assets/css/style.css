@@ -2700,6 +2700,7 @@ select {
 .service-block .inner-box .content-box .title {
   color: var(--theme-color2);
   margin-bottom: 0;
+  font-weight: 500;
 }
 .service-block .inner-box .hover-content {
   position: absolute;
