@@ -1512,6 +1512,7 @@ Page Title
     min-height: 250px;
     text-align: center;
     z-index: 11;
+    margin-bottom: 100px;
   }
   @media only screen and (max-width: 768px) {
     .page-title {
