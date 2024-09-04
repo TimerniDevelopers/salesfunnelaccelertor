@@ -1643,3 +1643,28 @@ Page Title
 .z-index-22{
     z-index: 22;
 }
+/* css animation - start
+================================================== */
+@keyframes updown {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+.smoth-scroll i {
+    animation: updown 1s infinite alternate;
+    font-size: 24px;
+
+ 
+}
+
+.smoth-scroll {
+    color: #F96500;
+    transition: 0.3s;
+}
+.smoth-scroll:hover{
+    color: var(--theme-color1);
+}

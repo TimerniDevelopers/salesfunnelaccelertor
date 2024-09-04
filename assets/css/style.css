@@ -3992,7 +3992,7 @@ select {
 .help-contact a:hover {
   color: var(--theme-color1);
 }
-
+.video-box-2 .play-btn,
 .services-details__content .video-box .play-btn{
   position: absolute;
   top: 50%;
