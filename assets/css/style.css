@@ -2918,10 +2918,12 @@ select {
     text-align: center;
   }
 }
+/* .services-details__content .video-box .play-btn:hover .icon, */
 .video-section .video-box .play-btn:hover .icon {
   background-color: var(--theme-color-light);
   color: var(--theme-color2);
 }
+
 .video-section .video-box .play-btn .icon {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3991,7 +3993,12 @@ select {
   color: var(--theme-color1);
 }
 
-
+.services-details__content .video-box .play-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /***
 
 ====================================================================
