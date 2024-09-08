@@ -225,4 +225,8 @@ $('.testimonial-carousel-two').owlCarousel({
 		});
 	}
 
+    // new js 
+
+    
+
 })(jQuery);
