@@ -1656,15 +1656,52 @@ Page Title
 
 .smoth-scroll i {
     animation: updown 1s infinite alternate;
-    font-size: 24px;
-
- 
+    font-size: 30px;
+    border: 1px solid  #F96500;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 45px;
+    padding: 3px;
+   
 }
 
 .smoth-scroll {
     color: #F96500;
     transition: 0.3s;
+    position: relative;
+    display: inline-block;
+    
 }
-.smoth-scroll:hover{
+
+  
+  .smoth-scroll .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #029ed6;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px;
+    padding: 5px 0;
+    /*Positionthetooltip*/position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  
+  .smoth-scroll:hover .tooltiptext {
+    visibility: visible;
+  }
+.smoth-scroll:hover i{
+    border: 1px solid  var(--theme-color1);
     color: var(--theme-color1);
 }
